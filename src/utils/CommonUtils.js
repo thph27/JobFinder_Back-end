@@ -5,7 +5,7 @@ const pdfExtract = new PDFExtract();
 const keywordExtractor = require("keyword-extractor");
 let encodeToken = (userId) =>{
     return JWT.sign({
-        iss: 'Tai Nguyen',
+        iss: 'Thang Pham',
         sub: userId,
         iat: new Date().getTime(),
         exp: new Date().setDate(new Date().getDate() +3)
